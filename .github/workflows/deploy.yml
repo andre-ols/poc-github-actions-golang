@@ -1,5 +1,5 @@
 name: Deploy
-on: [push]
+on: [pull_request]
 
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
           branch: gh-pages
 
       # - name: Run build
-      #   working-directory: /build
+      #   working-directory: /usr/go
       #   volumes:
-      #     - /build:/build
-      #   run: go build -o build/ main.go
+      #     - /build:/usr/go/build
+      #   run: go build -o build main.go
