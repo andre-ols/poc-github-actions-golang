@@ -12,5 +12,18 @@ jobs:
         with:
           go-version: 1.20.1
 
-      - name: Build
-        run: go build -v ./...
+      - name: Generate GoDoc
+        uses: ktr0731/godoc-action@v0.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          branch: gh-pages
+
+      # - name: Run build
+      #   working-directory: /build
+      #   volumes:
+      #     - /build:/build
+      #   run: go build -o build/ main.go
