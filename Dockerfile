@@ -1,1 +1,1 @@
-FROM golang:1.20.
+FROM golang:1.20.1-alpine3.13 AS builder
