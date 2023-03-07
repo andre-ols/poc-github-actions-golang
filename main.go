@@ -1,18 +1,28 @@
-package main
+// name of the package
+package user
 
+// fmt is responsible for formatting
 import (
-	"net/http"
-
-	"github.com/labstack/echo/v4"
+	"fmt"
 )
 
-// Hello World Function
-func helloWord(c echo.Context) error {
-	return c.String(http.StatusOK, "Hello, World!")
+// User is a struct of human data
+type User struct {
+	Age  int
+	Name string
 }
 
 func main() {
-	e := echo.New()
-	e.GET("/", helloWord)
-	e.Logger.Fatal(e.Start(":8080"))
+	// human is an initialization of the User struct
+	human := User{
+		Age:  0,
+		Name: "person",
+	}
+
+	fmt.Println(human.Talk())
+}
+
+// Talk is a method of the User struct
+func (receiver User) Talk() string {
+	return "Every User Gets to Say Something!"
 }
