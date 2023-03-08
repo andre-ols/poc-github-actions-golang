@@ -44,7 +44,7 @@ jobs:
 
       - name: "Build"
         run: |
-          GOOS=windows go build -o build/main.exe main.go
+          GOOS=windows go build main.go
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
