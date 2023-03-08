@@ -19,6 +19,7 @@ jobs:
         run: |
           go mod tidy
           go get golang.org/x/tools/cmd/godoc 
+          go install golang.org/x/tools/cmd/godoc
           go install gitlab.com/tslocum/godoc-static@latest
           rm docs -rf
           mkdir docs
