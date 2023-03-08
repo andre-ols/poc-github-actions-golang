@@ -895,3 +895,8 @@ a.error {
     white-space: pre-wrap;
   }
 }
+
+
+details { margin-top: 20px; }
+summary { margin-left: 20px; cursor: pointer; }
+#footer > p, #footer > li {	max-width: none; word-wrap: normal; }
