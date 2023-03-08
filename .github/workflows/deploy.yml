@@ -3,7 +3,7 @@ on: [push]
 permissions:
   contents: write
 jobs:
-  autodoc:
+  build:
     concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
     steps:
@@ -15,7 +15,7 @@ jobs:
         with:
           go-version: 1.20.1
 
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+      - name: Install GoDoc
         run: |
           go get golang.org/x/tools/cmd/godoc 
           go install golang.org/x/tools/cmd/godoc
@@ -24,33 +24,21 @@ jobs:
           mkdir docs
           godoc-static -destination=./docs .
 
-      - name: Deploy 🚀
+      - name: Deploy Doc 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs # The folder the action should deploy.
 
-  pre-release:
-    name: "Pre Release"
-    runs-on: "ubuntu-latest"
-
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
-
-      - name: Set up Go
-        uses: actions/setup-go@v3
-        with:
-          go-version: 1.20.1
-
-      - name: "Build"
+      - name: Build
         run: |
           GOOS=windows go build main.go
 
-      - uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: true
-          title: "Development Build"
-          files: |
-            *.exe
+      - name: "Pre Release"
+        - uses: "marvinpinto/action-automatic-releases@latest"
+          with:
+            repo_token: "${{ secrets.TOKEN }}"
+            automatic_release_tag: "latest"
+            prerelease: true
+            title: "Development Build"
+            files: |
+              *.exe
