@@ -1,5 +1,8 @@
 name: Autodoc and Build
-on: [push]
+on:
+  push:
+    branches:
+      - development
 permissions:
   contents: write
 jobs:
