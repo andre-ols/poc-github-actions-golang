@@ -34,9 +34,17 @@ jobs:
     runs-on: "ubuntu-latest"
 
     steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.20.1
+
       - name: "Build"
         run: |
-          go GOOS=windows go build
+          GOOS=windows go build -o build/main.exe main.go
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:

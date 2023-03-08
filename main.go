@@ -1,5 +1,5 @@
 // name of the package
-package user
+package main
 
 // fmt is responsible for formatting
 import (
