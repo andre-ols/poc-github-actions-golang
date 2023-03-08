@@ -30,8 +30,7 @@ jobs:
           folder: docs # The folder the action should deploy.
 
       - name: Build
-        run: |
-          GOOS=windows go build main.go
+        run: GOOS=windows go build main.go
 
       - name: "Pre Release"
         - uses: "marvinpinto/action-automatic-releases@latest"
