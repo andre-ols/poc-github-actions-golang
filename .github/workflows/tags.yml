@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: "What is the version?"
+        description: "What is the version"
 
 jobs:
   Release:
