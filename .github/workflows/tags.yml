@@ -1,8 +1,8 @@
 name: Manual trigger
 
 on:
-  push: 
-    branches: 
+  push:
+    branches:
       - "development"
 
   workflow_dispatch:
@@ -12,9 +12,9 @@ on:
         default: "World"
 
 jobs:
-    hello:
-        runs-on: ubuntu-latest
+  hello:
+    runs-on: ubuntu-latest
 
-        steps:
-        - name: Hello Step
-            run: echo "Hello ${{ github.event.inputs.name }}"
+    steps:
+      - name: Hello Step
+        run: echo "Hello ${{ github.event.inputs.name }}"
