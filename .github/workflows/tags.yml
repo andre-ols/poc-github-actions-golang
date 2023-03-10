@@ -4,22 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: "What is the version"
+        description: "Who to greet"
+        default: "World"
 
 jobs:
-  Release:
-    runs-on: ubuntu-latest
+    hello:
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Build
-        run: GOOS=windows go build main.go
-
-      - name: "Auto release"
-        uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          title: "v${{ github.event.inputs.name }}"
-          automatic_release_tag: "latest"
-          repo_token: "${{ secrets.TOKEN }}"
-          prerelease: false
-          files: |
-            *.exe
+        steps:
+        - name: Hello Step
+            run: echo "Hello ${{ github.event.inputs.name }}"
