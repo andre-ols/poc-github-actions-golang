@@ -19,7 +19,7 @@ func main() {
 		Name: "person",
 	}
 
-	fmt.Println(human.Talk())
+	fmt.Println(human.Talk(), "oi")
 }
 
 // Talk is a method of the User struct
