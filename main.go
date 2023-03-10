@@ -4,25 +4,16 @@ package main
 // fmt is responsible for formatting
 import (
 	"fmt"
-)
 
-// User is a struct of human data
-type User struct {
-	Age  int
-	Name string
-}
+	"github.com/andre-ols/poc-github-actions-golang/user"
+)
 
 func main() {
 	// human is an initialization of the User struct
-	human := User{
+	human := user.User{
 		Age:  0,
 		Name: "person",
 	}
 
-	fmt.Println(human.Talk(), "oi")
-}
-
-// Talk is a method of the User struct
-func (receiver User) Talk() string {
-	return "Every User Gets to Say Something"
+	fmt.Println(human.Talk())
 }
