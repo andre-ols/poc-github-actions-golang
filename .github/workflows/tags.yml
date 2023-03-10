@@ -1,0 +1,25 @@
+name: Manual trigger
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "What is the version?"
+
+jobs:
+    Release:
+        runs-on: ubuntu-latest
+
+        steps:
+        - name: Build
+            run: GOOS=windows go build main.go
+
+        - name: "Auto release"
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          title: "v${{ github.event.inputs.name }}"
+          automatic_release_tag: "latest"
+          repo_token: "${{ secrets.TOKEN }}"
+          prerelease: false
+          files: |
+            *.exe

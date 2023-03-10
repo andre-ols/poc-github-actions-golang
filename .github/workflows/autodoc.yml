@@ -1,4 +1,4 @@
-name: Autodoc and Build
+name: Autodoc
 on:
   push:
     branches:
@@ -33,16 +33,3 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs # The folder the action should deploy.
-
-      - name: Build
-        run: GOOS=windows go build main.go
-
-      - name: "Release"
-        uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          title: "Release"
-          automatic_release_tag: "latest"
-          repo_token: "${{ secrets.TOKEN }}"
-          prerelease: false
-          files: |
-            *.exe
