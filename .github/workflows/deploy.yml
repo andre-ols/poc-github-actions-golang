@@ -35,11 +35,11 @@ jobs:
       - name: Build
         run: GOOS=windows go build main.go
 
-      - name: "Pre Release"
+      - name: "Release"
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
+          title: "Release"
           repo_token: "${{ secrets.TOKEN }}"
-          automatic_release_tag: "latest"
-          title: "Development Build"
+          prerelease: false
           files: |
             *.exe
