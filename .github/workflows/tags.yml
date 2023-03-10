@@ -1,15 +1,14 @@
 name: Manual trigger
 
 on:
-  push:
-    branches:
-      - "development"
-
   workflow_dispatch:
     inputs:
       name:
         description: "Who to greet"
         default: "World"
+  push:
+    branches:
+      - "development"
 
 jobs:
   hello:
