@@ -41,6 +41,7 @@ jobs:
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           title: "Release"
+          automatic_release_tag: "latest"
           repo_token: "${{ secrets.TOKEN }}"
           prerelease: false
           files: |
