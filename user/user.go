@@ -9,5 +9,5 @@ type User struct {
 
 // Talk is a method of the User struct
 func (receiver User) Talk() string {
-	return "Every User Gets to Say Something"
+	return "Tacito está falando"
 }
