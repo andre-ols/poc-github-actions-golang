@@ -1,106 +1,104 @@
-// Copyright 2013 Google Inc.  All rights reserved.
-// Copyright 2016 the gousb Authors.  All rights reserved.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
-// lsusb lists attached USB devices.
 package main
 
 import (
-	"flag"
+	"encoding/json"
 	"fmt"
-	"log"
-
-	"github.com/google/gousb"
-	"github.com/google/gousb/usbid"
+	"io/ioutil"
+	"os/exec"
+	"strings"
 )
 
-var (
-	debug = flag.Int("debug", 0, "libusb debug level (0..3)")
-)
+func GetDeviceFields(dev_description string) map[string]string {
+	// The fields are divided by a new line
+	//fmt.Println(dev_description)
+	fields_list := strings.Split(dev_description, "\r\n")
+
+	parsed_devinfo := make(map[string]string)
+	var field_split []string
+	var key string
+	var value string
+
+	for _, field := range fields_list {
+		field_split = strings.Split(field, ":")
+		if len(field_split) >= 2 {
+			//fmt.Println(field_split)
+
+			// Standardize the spaces and adds the key/value pair
+			key = strings.Join(strings.Fields(field_split[0]), " ")
+
+			if len(key) > 0 {
+
+				value = strings.Join(strings.Fields(field_split[1]), " ")
+				parsed_devinfo[string(key)] = string(value)
+
+			}
+
+		}
+
+	}
+
+	return parsed_devinfo
+}
+
+func FilterFields(parsed_devinfo map[string]string) map[string]string {
+
+	important_fields := [...]string{"Name", "Status", "Class", "ClassGuid", "HardwareID", "Description"}
+	filtered_dev_list := make(map[string]string)
+
+	value := ""
+	found := false
+
+	if len(parsed_devinfo) > 0 {
+		for _, key := range important_fields {
+
+			value, found = parsed_devinfo[key]
+
+			if found == true {
+				filtered_dev_list[key] = value
+			}
+		}
+	}
+	return filtered_dev_list
+}
+
+func ParseWinDeviceList(device_list []string) []map[string]string {
+
+	var parsed_dev_list []map[string]string
+
+	for idx, dev := range device_list {
+		// the first lines are usually empty
+		if idx > 1 {
+			parsed_devinfo := GetDeviceFields(dev)
+			parsed_devinfo = FilterFields(parsed_devinfo)
+			if len(parsed_devinfo) > 0 {
+				parsed_dev_list = append(parsed_dev_list, parsed_devinfo)
+			}
+		}
+	}
+
+	return parsed_dev_list
+}
 
 func main() {
-	flag.Parse()
+	cmd := exec.Command("powershell", "Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match '^USB' } | Format-List")
+	//cmd1 := exec.Command("powershell", "Get-PnpDevice -PresentOnly")
 
-	// Only one context should be needed for an application.  It should always be closed.
-	ctx := gousb.NewContext()
-	defer ctx.Close()
+	res, _ := cmd.Output()
 
-	// Debugging can be turned on; this shows some of the inner workings of the libusb package.
-	ctx.Debug(*debug)
+	output := string(res)
 
-	// OpenDevices is used to find the devices to open.
-	devs, err := ctx.OpenDevices(func(desc *gousb.DeviceDesc) bool {
+	output_list := strings.Split(output, "\r\n\r\n")
 
-		if desc.Class.String() != "hub" {
-			fmt.Printf("%03d.%03d %s:%s %s %s\n", desc.Bus, desc.Address, desc.Vendor, desc.Product, usbid.Describe(desc), desc.Class.String())
-			fmt.Printf("  Protocol: %s\n", usbid.Classify(desc))
-			class := usbid.Classes[desc.Class]
-			subClass := class.SubClass[desc.SubClass]
-			fmt.Printf("  Class: %s\n", class)
-			fmt.Printf("  SubClass: %s\n", subClass)
+	result := ParseWinDeviceList(output_list)
 
-			fmt.Printf("  Serial: %s\n", desc.Device)
+	/*for key := range result[1] {
+		fmt.Print(key + " :")
+		fmt.Print(" " + result[1][key] + "\n")
+	}*/
 
-			fmt.Printf("\n\n")
+	fmt.Print("Número de Devices Conectados ao computador: ")
+	fmt.Println(len(result))
 
-			// The usbid package can be used to print out human readable information.
-
-			// The configurations can be examined from the DeviceDesc, though they can only
-			// be set once the device is opened.  All configuration references must be closed,
-			// to free up the memory in libusb.
-			// for _, cfg := range desc.Configs {
-			// 	// This loop just uses more of the built-in and usbid pretty printing to list
-			// 	// the USB devices.
-			// 	fmt.Printf("  %s:\n", cfg)
-
-			// 	// get only usb type
-
-			// 	// for _, intf := range cfg.Interfaces {
-			// 	// 	fmt.Printf("    --------------\n")
-			// 	// 	for _, ifSetting := range intf.AltSettings {
-			// 	// 		fmt.Printf("    %s\n", ifSetting)
-			// 	// 		fmt.Printf("      %s\n", usbid.Classify(ifSetting))
-			// 	// 		for _, end := range ifSetting.Endpoints {
-			// 	// 			fmt.Printf("      %s\n", end)
-			// 	// 		}
-			// 	// 	}
-			// 	// }
-			// 	fmt.Printf("    --------------\n")
-			// }
-		}
-
-		// After inspecting the descriptor, return true or false depending on whether
-		// the device is "interesting" or not.  Any descriptor for which true is returned
-		// opens a Device which is retuned in a slice (and must be subsequently closed).
-		return false
-	})
-
-	// All Devices returned from OpenDevices must be closed.
-	defer func() {
-		for _, d := range devs {
-			d.Close()
-		}
-	}()
-
-	// OpenDevices can occasionally fail, so be sure to check its return value.
-	if err != nil {
-		log.Fatalf("list: %s", err)
-	}
-
-	for _, dev := range devs {
-		// Once the device has been selected from OpenDevices, it is opened
-		// and can be interacted with.
-		_ = dev
-	}
+	write_on_file, _ := json.Marshal(result)
+	_ = ioutil.WriteFile("devices.json", write_on_file, 0644)
 }
