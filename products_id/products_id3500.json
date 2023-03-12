@@ -1,0 +1,1283 @@
+{
+    "236A": {
+        "1965": "SB6501 802.11ad Wireless Network Adapter"
+    },
+    "2373": {
+        "0001": "5 MegaPixel Digital Still Camera [DSC5M]"
+    },
+    "2375": {
+        "0001": "Digital Audio Player"
+    },
+    "2378": {
+        "100a": "Universal Wireless Controller"
+    },
+    "237D": {
+        "0400": "MC400"
+    },
+    "2386": {
+        "3125": "Touch System",
+        "4328": "Touch System",
+        "432f": "Touch System"
+    },
+    "238B": {
+        "0a11": "DMR Radio"
+    },
+    "239A": {
+        "0001": "CDC Bootloader",
+        "801e": "Trinket M0"
+    },
+    "23A0": {
+        "0001": "Token iBank2key",
+        "0002": "iBank2Key Type M Token",
+        "0003": "iToken",
+        "0008": "MS_KEY K - Angara"
+    },
+    "23A6": {
+        "2000": "Gibson Firebird X Pedal Board",
+        "2001": "Gibson Firebird X Switch Board"
+    },
+    "23B4": {
+        "0300": "DW0300 Hight Speed Monochrome Camera",
+        "0200": "DW0200 Color Camera"
+    },
+    "23C7": {
+        "1021": "FirstMix"
+    },
+    "23FC": {
+        "0204": "DSI-Simulyzer box for DSI3 data communication",
+        "0201": "SPI-Simulyzer box for SPI data communication",
+        "0202": "PSI5-Simulyzer box for PSI5 (Peripheral-Sensor-Interfacs) data communication",
+        "0203": "SENT-Simulyzer box for SENT data communication"
+    },
+    "2405": {
+        "0002": "West Mountain Radio RIGblaster Advantage Audio",
+        "0003": "West Mountain Radio RIGblaster Advantage"
+    },
+    "2406": {
+        "6688": "PD7X Portable Storage"
+    },
+    "242E": {
+        "0001": "DALI Master",
+        "0002": "LiCS Bootloader Mode",
+        "0003": "LiCS Running Mode",
+        "0004": "iProgrammer",
+        "0005": "NFC programming device"
+    },
+    "2433": {
+        "b200": "[NZXT Kraken X60]"
+    },
+    "2443": {
+        "00dc": "aes220 FPGA Mini-Module"
+    },
+    "2457": {
+        "100a": "HR2000 Spectrometer 1.00.0",
+        "1012": "HR4000 Spectrometer"
+    },
+    "2458": {
+        "0001": "BLED112 Bluetooth 4.0 Single Mode Dongle"
+    },
+    "2464": {
+        "0010": "Protect : Smoke + Carbon Monoxide",
+        "0020": "Heat Link",
+        "0001": "Learning Thermostat",
+        "0002": "Learning Thermostat (2nd Generation)"
+    },
+    "2466": {
+        "8003": "Axe-Fx II",
+        "8010": "Axe-FX III"
+    },
+    "2476": {
+        "1040": "3-Space Embedded Sensor"
+    },
+    "2478": {
+        "2008": "U209-000-R Serial Port"
+    },
+    "248A": {
+        "8366": "Wireless Optical Mouse ACT-MUSW-002",
+        "8367": "Telink Wireless Receiver"
+    },
+    "24A4": {
+        "0002": "I15_v1.06 [Primare Audio DAC]"
+    },
+    "24AE": {
+        "1813": "E9260 Wireless Multi-mode Keyboard",
+        "2000": "2.4G Wireless Device Serial",
+        "2001": "5 GHz Wireless Receiver",
+        "2003": "5GHz Wireless Transceiver",
+        "4110": "Optical Gaming Mouse [V280]",
+        "6000": "Wireless Audio",
+        "0001": "KX Keyboard",
+        "0197": "meva Barcode Scanner"
+    },
+    "24C0": {
+        "0003": "Model 01036 weather center"
+    },
+    "24C6": {
+        "5b02": "GPX Controller",
+        "5d04": "Sabertooth Elite",
+        "fa00": "INF-8032385 Disney Infinity Reader",
+        "fafb": "Aplay Controller",
+        "fafd": "Afterglow Gamepad for Xbox 360",
+        "fafe": "Rock Candy Gamepad for Xbox 360",
+        "5506": "Hori Soulcalibur V Stick for Xbox 360",
+        "550d": "Hori Gem Controller for Xbox 360",
+        "550e": "Real Arcade Pro V Kai for Xbox One / Xbox 360",
+        "551a": "Fusion Pro Controller",
+        "561a": "Fusion Controller for Xbox One",
+        "5b00": "Ferrari 458 Italia Racing Wheel",
+        "541a": "PowerA CPFA115320-01 [Mini Controller for Xbox One]",
+        "542a": "Spectra for Xbox One",
+        "543a": "PowerA Wired Controller for Xbox One",
+        "5500": "Horipad EX2 Turbo",
+        "5501": "Hori Real Arcade Pro.VX-SA for Xbox 360",
+        "5502": "Hori Fighting Stick VX Alt for Xbox 360",
+        "5503": "Hori Fighting Edge for Xbox 360",
+        "5000": "Razer Atrox Gaming Arcade Stick",
+        "5300": "PowerA Mini ProEX Controller for Xbox 360",
+        "5303": "Airflo Wired Controller for Xbox 360",
+        "530a": "ProEX Controller for Xbox 360",
+        "531a": "Pro Ex mini for XBOX",
+        "5397": "FUS1ON Tournament Controller"
+    },
+    "24CF": {
+        "00a1": "Light Field Camera"
+    },
+    "24DC": {
+        "0406": "JaCarta SF GOST"
+    },
+    "24E1": {
+        "3001": "Adp-usb",
+        "3005": "Radius"
+    },
+    "24EA": {
+        "0197": "Barcode Scanner"
+    },
+    "24ED": {
+        "044d": "Chat Headset"
+    },
+    "24F0": {
+        "0105": "Das Keyboard 4",
+        "0140": "Das Keyboard 4",
+        "2020": "Das Keyboard 5Q"
+    },
+    "2500": {
+        "0020": "USRP B210",
+        "0021": "USRP B200-mini",
+        "0022": "USRP B205-mini",
+        "0200": "USRP B200"
+    },
+    "2516": {
+        "9494": "Sirus Headset",
+        "0027": "CM Storm Coolermaster Novatouch TKL",
+        "002d": "Alcor mouse",
+        "0042": "Masterkeys Lite L Combo RGB Keyboard",
+        "0044": "Masterkeys Lite L Combo RGB Mouse",
+        "0046": "Masterkeys PRO L",
+        "0047": "MasterKeys Pro L",
+        "0055": "MasterKeys L",
+        "1006": "MasterCase SL600M",
+        "0007": "Storm Sentinel Advance II",
+        "0009": "Storm Quick Fire PRO",
+        "0011": "Storm Quick Fire TK 6keys",
+        "0014": "Storm Quick Fire TK Nkeys",
+        "0015": "Storm QuickFire Pro/Ultimate keyboard",
+        "0017": "CM Storm Quick Fire Stealth",
+        "001a": "Storm Quick Fire XT",
+        "0020": "QuickFire Rapid-i Keyboard",
+        "0003": "Storm Xornet",
+        "0004": "Storm QuickFire Rapid Mechanical Keyboard",
+        "0006": "Storm Recon"
+    },
+    "2520": {
+        "0001": "EasyPrinter S3"
+    },
+    "2527": {
+        "1388": "Paramount 5"
+    },
+    "2537": {
+        "1066": "NS1066",
+        "1068": "NS1068/NS1068X SATA Bridge Controller"
+    },
+    "2546": {
+        "e301": "TipToi Pen"
+    },
+    "2548": {
+        "1001": "CEC Adapter",
+        "1002": "CEC Adapter"
+    },
+    "254E": {
+        "e2b3": "SHF 58035 A BiasBoard"
+    },
+    "2555": {
+        "0001": "B1 Fitness Band"
+    },
+    "255E": {
+        "0001": "Device",
+        "0002": "Dual"
+    },
+    "2560": {
+        "c152": "See3CAM_CU51 5 Mpx monochrome camera"
+    },
+    "2563": {
+        "0523": "BM0523 WirelessGamepad",
+        "0575": "ZD-V+ Wired Gaming Controller",
+        "031d": "DXT Mouse"
+    },
+    "256B": {
+        "0121": "Audiant 80i"
+    },
+    "256F": {
+        "c635": "SpaceMouse Compact",
+        "c651": "CadMouse Wireless",
+        "c652": "Universal Receiver",
+        "c654": "CadMouse Pro Wireless",
+        "c657": "CadMouse Pro Wireless Left",
+        "c62e": "SpaceMouse Wireless (cabled)",
+        "c62f": "SpaceMouse Wireless Receiver",
+        "c631": "SpaceMouse Pro Wireless (cabled)",
+        "c632": "SpaceMouse Pro Wireless Receiver",
+        "c633": "SpaceMouse Enterprise"
+    },
+    "2573": {
+        "0017": "MAYA22"
+    },
+    "2574": {
+        "0910": "CAM520",
+        "0920": "VC320",
+        "0930": "CAM530",
+        "0940": "CAM340",
+        "0950": "VC322",
+        "0960": "VB342",
+        "0901": "VC520"
+    },
+    "2576": {
+        "0011": "THM",
+        "0003": "TCM",
+        "0005": "BL [Boot Loader]"
+    },
+    "2578": {
+        "4168": "2.4GHZ Wireless Arc Folding Mouse"
+    },
+    "2581": {
+        "1807": "Generic HID Smartcard",
+        "1808": "WinUSB Smartcard",
+        "f1d0": "FIDO U2F Security Key"
+    },
+    "25A7": {
+        "2410": "Laser mouse",
+        "fa23": "2.4G Receiver",
+        "fa61": "Elecom Co., Ltd MR-K013 Multicard Reader"
+    },
+    "25B5": {
+        "0002": "Multitouch 3200"
+    },
+    "25BB": {
+        "006a": "PRT.5113 [CLS CANaerospace Gateway]",
+        "006b": "PRT.5123",
+        "006c": "PRT.5123 [reserved]",
+        "006d": "PRT.5127",
+        "00ff": "MSP430 HID Update Agent",
+        "0063": "PRT.5105 [Yoke]",
+        "0064": "PRT.5105 [reserved]",
+        "0065": "PRT.5096 [Battery Management System]",
+        "0066": "PRT.5096 [Battery Management System]",
+        "0067": "PRT.5094",
+        "0068": "PRT.5094",
+        "0069": "PRT.5119 [Ethernet2CAN LC Gateway]"
+    },
+    "25BF": {
+        "0002": "Isostick updater",
+        "0001": "Isostick"
+    },
+    "25C8": {
+        "0014": "Single User touchfoil(tm) (SU2-80)"
+    },
+    "25DA": {
+        "0001": "Weather Station"
+    },
+    "25DD": {
+        "3403": "miniLector AIR NFC v3",
+        "3503": "mLector AIR DI V3",
+        "b001": "miniLector Blue",
+        "2361": "Digital-DNA Key BT",
+        "2362": "Digital-DNA Key",
+        "2371": "TokenME EVO v2",
+        "23b4": "ArubaKey AK901",
+        "3111": "miniLector EVO",
+        "3211": "miniLector AIR EVO",
+        "2311": "keyfour-a1",
+        "2321": "CKey4",
+        "2341": "tokenME FIPS v3",
+        "2351": "Digital DNA Key",
+        "2354": "Digital-DNA Key",
+        "1101": "miniLector-s",
+        "1201": "cryptokey",
+        "2221": "iAM"
+    },
+    "25F0": {
+        "c131": "Gioteck PS3 2.4G Wireless Controller"
+    },
+    "25FB": {
+        "0102": "K-5"
+    },
+    "2604": {
+        "0012": "U12"
+    },
+    "2626": {
+        "ea60": "UART Bridge Controller [cp210x]"
+    },
+    "262A": {
+        "9027": "SA9027 audio controller",
+        "9226": "SA9226 192KHz audio controller",
+        "9227": "SA9227 384KHz audio controller",
+        "9228": "SA9228 384KHz/DSD audio controller",
+        "100e": "SA9027 Audio Streaming Controller",
+        "10e0": "SA9023 Audio Streaming Controller",
+        "9020": "SA9020 audio controller",
+        "9023": "SA9023 audio controller"
+    },
+    "2632": {
+        "3209": "7-in-1 Card Reader"
+    },
+    "2639": {
+        "0301": "MTi Converter",
+        "d00d": "Wireless Receiver",
+        "0100": "Body Pack",
+        "0101": "Awinda Station",
+        "0102": "Awinda Dongle",
+        "0103": "Sync Station",
+        "0200": "MTw",
+        "0300": "Motion Tracker Development Board",
+        "0001": "MTi-10 IMU",
+        "0002": "MTi-20 VRU",
+        "0003": "MTi-30 AHRS",
+        "0011": "MTi-100 IMU",
+        "0012": "MTi-200 VRU",
+        "0013": "MTi-300 AHRS",
+        "0017": "MTi-G 7xx GNSS/INS"
+    },
+    "264A": {
+        "1004": "Ventus"
+    },
+    "2650": {
+        "1311": "eBeam Classic [Luidia]"
+    },
+    "2659": {
+        "1212": "MediaTV Pro III MiniPCIe (EU)",
+        "1213": "MediaTV Pro III MiniPCIe (US)",
+        "1204": "MediaTV Analog/FM/ATSC",
+        "1205": "SkyTV Ultimate V",
+        "1206": "MediaTV DVB-T MiniPCIe",
+        "1207": "Sundtek HD Capture",
+        "1208": "Sundtek SkyTV Ultimate III",
+        "1209": "MediaTV Analog/FM/ATSC MiniPCIe",
+        "1210": "MediaTV Pro III (EU)",
+        "1211": "MediaTV Pro III (US)",
+        "1101": "TNT DVB-T/DAB/DAB+/FM",
+        "1201": "FM Transmitter/Receiver",
+        "1202": "MediaTV Analog/FM/DVB-T",
+        "1203": "MediaTV Analog/FM/DVB-T MiniPCIe"
+    },
+    "2672": {
+        "0004": "Hero 3",
+        "0006": "HERO 3+ Silver Edition",
+        "0007": "HERO 3+ Black",
+        "000e": "HERO4 Black",
+        "0011": "Hero 3+ Black"
+    },
+    "2676": {
+        "ba0a": "Vision Camera",
+        "ba0b": "Vision Camera",
+        "ba0c": "Vision Camera",
+        "ba0d": "Vision Camera",
+        "ba0e": "Vision Camera",
+        "ba0f": "Vision Camera",
+        "ba03": "ba03 dart Vision Caera",
+        "ba04": "ba04 pulse Vision Camera",
+        "ba05": "Vision Camera",
+        "ba06": "Vision Camera",
+        "ba07": "Vision Camera",
+        "ba08": "Vision Camera",
+        "ba09": "Vision Camera",
+        "ba02": "ace"
+    },
+    "2685": {
+        "0900": "[Packtalk Bold Bluetooth Motorcycle Intercom]"
+    },
+    "2687": {
+        "fb01": "Base Station"
+    },
+    "2689": {
+        "0601": "naturaSign Pad POS",
+        "0901": "naturaSign Pad Light",
+        "0ce1": "Pad Vivid US",
+        "0cf1": "Pad Biometric US 5.0",
+        "0d01": "duraSign Pad US 10.0",
+        "0df1": "duraSign Pad Biometric US 10.0"
+    },
+    "268B": {
+        "8426": "Evolv DNA 60 (recovery mode)",
+        "8413": "Evolv DNA 200 (recovery mode)",
+        "8414": "Evolv DNA 250 (recovery mode)",
+        "8415": "Evolv DNA 75 (recovery mode)",
+        "8416": "Evolv DNA 60 (recovery mode)",
+        "8423": "Evolv DNA 200 (recovery mode)",
+        "8424": "Evolv DNA 250 (recovery mode)",
+        "8425": "Evolv DNA 75 (recovery mode)",
+        "0425": "Evolv DNA 75",
+        "0426": "Evolv DNA 60",
+        "8405": "Evolv DNA 200 (recovery mode)",
+        "8406": "Evolv DNA 200 (recovery mode)",
+        "8407": "Evolv DNA 200 (recovery mode)",
+        "8408": "Evolv DNA 75 (recovery mode)",
+        "8409": "Evolv DNA 250 (recovery mode)",
+        "8412": "Evolv DNA 60 (recovery mode)",
+        "0413": "Evolv DNA 200",
+        "0414": "Evolv DNA 250",
+        "0415": "Evolv DNA 75",
+        "0416": "Evolv DNA 60",
+        "0417": "Evolv DNA Go",
+        "0419": "Evolv DNA 250 Color",
+        "0423": "Evolv DNA 200",
+        "0424": "Evolv DNA 250",
+        "0201": "Sabertooth 2x32",
+        "0405": "Evolv DNA 200",
+        "0406": "Evolv DNA 200",
+        "0407": "Evolv DNA 200",
+        "0408": "Evolv DNA 75",
+        "0409": "Evolv DNA 250",
+        "0412": "Evolv DNA 60",
+        "0101": "DELink 2"
+    },
+    "26A9": {
+        "0001": "Payment Terminal v1.0"
+    },
+    "26AA": {
+        "0001": "FT-1D",
+        "000e": "FTA-550",
+        "000f": "FTA-750"
+    },
+    "26B5": {
+        "0020": "ECI 80",
+        "0003": "ECD 2 (Audio Class 1)",
+        "0004": "PI 2D",
+        "0005": "PI 2D (Audio Class 1)",
+        "0006": "ECI 6",
+        "0007": "ECI 6 (Audio Class 1)",
+        "0002": "ECD 2"
+    },
+    "26BD": {
+        "9917": "Fusion Flash Drive"
+    },
+    "26F2": {
+        "0200": "MyDac"
+    },
+    "2707": {
+        "0005": "drive.web"
+    },
+    "270D": {
+        "1001": "R-Idge Bootloader",
+        "1002": "R-Idge Router"
+    },
+    "2717": {
+        "ff68": "Mi-4c",
+        "ff80": "Mi/Redmi series (RNDIS)",
+        "ff88": "Mi/Redmi series (RNDIS + ADB)",
+        "3801": "Mi ANC Type-C In-Ear Earphones",
+        "4106": "MediaTek MT7601U [MI WiFi]",
+        "ff08": "Redmi Note 3 (ADB Interface)",
+        "ff10": "Mi/Redmi series (PTP)",
+        "ff18": "Mi/Redmi series (PTP + ADB)",
+        "ff40": "Mi/Redmi series (MTP)",
+        "ff48": "Mi/Redmi series (MTP + ADB)",
+        "ff60": "redmi prime 2",
+        "0011": "100Mbps Network Card Adapter",
+        "0360": "Mi3W",
+        "0368": "Mi4 LTE"
+    },
+    "272C": {
+        "7d13": "I-jet"
+    },
+    "2730": {
+        "0fff": "CT-S2000/4000/310/CLP-521/621/631/CL-S700 Series",
+        "1004": "PPU-700",
+        "2002": "CT-S2000 Thermal Printer (Parallel mode)",
+        "200f": "CT-S310 Label printer"
+    },
+    "2735": {
+        "1043": "HCT HMD-180A",
+        "1044": "HCT HMD-180A",
+        "102c": "MPIO FL500",
+        "103f": "MPIO FY570",
+        "1040": "MPIO FY570",
+        "1041": "MPIO FY670",
+        "1042": "MPIO FY670",
+        "1018": "MPIO FY800",
+        "1019": "MPIO FY800",
+        "101a": "MPIO FY900",
+        "101b": "MPIO FY900",
+        "102b": "MPIO FL500",
+        "1012": "MPIO FL400",
+        "1013": "MPIO HD400",
+        "1014": "MPIO HD400",
+        "1016": "MPIO FY700",
+        "1017": "MPIO FY700",
+        "100b": "MPIO HS200",
+        "100c": "MPIO FL350",
+        "100d": "MPIO FY500",
+        "100e": "MPIO FY500",
+        "100f": "MPIO FY600",
+        "1006": "MPIO FG100",
+        "1007": "MPIO FG130",
+        "1008": "MPIO FY300",
+        "1009": "MPIO FY400",
+        "100a": "MPIO FL300",
+        "0003": "MPIO HS100",
+        "1001": "MPIO FY200",
+        "1002": "MPIO FL100",
+        "1003": "MPIO FD100",
+        "1004": "MPIO HD200",
+        "1005": "MPIO HD300"
+    },
+    "273F": {
+        "1005": "ColorHug2 bootloader",
+        "1000": "ColorHug bootloader",
+        "1001": "ColorHug",
+        "1002": "ColorHug+",
+        "1003": "ColorHug+ Bootloader",
+        "1004": "ColorHug2"
+    },
+    "2756": {
+        "0002": "X1D Camera"
+    },
+    "2759": {
+        "0003": "IQOS Pocket Charger 2.4"
+    },
+    "2765": {
+        "0004": "Bodyguard 2"
+    },
+    "2766": {
+        "0000": "OneTouch Verio"
+    },
+    "2770": {
+        "915d": "Cyberpix S-210S / Little Tikes My Real Digital Camera",
+        "930b": "CCD Webcam(PC370R)",
+        "930c": "CCD Webcam(PC370R)",
+        "905c": "Che-Ez Snap SNAP-U/Digigr8/Soundstar TDC-35",
+        "9060": "A130",
+        "9120": "Che-ez! Snap / iClick Tiny VGA Digital Camera",
+        "9130": "TCG 501",
+        "913c": "Argus DC-1730",
+        "9150": "Mini Cam",
+        "9153": "iClick 5X",
+        "0a01": "ScanJet 4600 series"
+    },
+    "27A8": {
+        "a120": "Contactless + Chip Reader"
+    },
+    "27B8": {
+        "01ed": "blink(1)"
+    },
+    "27BD": {
+        "0001": "Slab Node Manager",
+        "0002": "Slab Node Manager JTAG"
+    },
+    "27C0": {
+        "0818": "Paperlike HD-FT"
+    },
+    "27C6": {
+        "538c": "Fingerprint Reader",
+        "5395": "Fingerprint Reader",
+        "5584": "Fingerprint Reader",
+        "55b4": "Fingerprint Reader",
+        "5740": "Fingerprint Reader",
+        "5117": "Fingerprint Reader",
+        "5201": "Fingerprint Reader",
+        "5301": "Fingerprint Reader",
+        "530c": "Fingerprint Reader",
+        "532d": "Fingerprint",
+        "5381": "Fingerprint Reader",
+        "5385": "Fingerprint Reader"
+    },
+    "27DD": {
+        "0002": "Mindeo Virtual COM Port"
+    },
+    "2803": {
+        "0001": "Controller Area Network car alarm module [SLCAN-2]"
+    },
+    "2806": {
+        "0001": "N-PASS X1"
+    },
+    "2817": {
+        "0002": "BB60C Spectrum Analyzer",
+        "0004": "SM200A Spectrum Analyzer"
+    },
+    "2818": {
+        "0001": "Transfer Drive Dock"
+    },
+    "2821": {
+        "0161": "WL-161 802.11b Wireless Adapter [SiS 162U]",
+        "160f": "WL-160g 802.11g Wireless Adapter [Envara WiND512]",
+        "3300": "WL-140 / Hawking HWU36D 802.11b Wireless Adapter [Intersil PRISM 3]"
+    },
+    "2833": {
+        "2031": "Rift CV1",
+        "3031": "Rift CV1",
+        "0021": "Rift DK2",
+        "0031": "Rift CV1",
+        "0101": "Latency Tester",
+        "0137": "Quest Headset",
+        "0201": "Camera DK2",
+        "0211": "Rift CV1 Sensor",
+        "0330": "Rift CV1 Audio",
+        "1031": "Rift CV1",
+        "2021": "Rift DK2",
+        "0001": "Rift Developer Kit 1"
+    },
+    "286B": {
+        "0003": "D6BB/D9 seismic digitizer"
+    },
+    "2886": {
+        "0002": "Seeeduino Lite"
+    },
+    "2890": {
+        "0213": "ClearPath 4-axis Comm Hub"
+    },
+    "2899": {
+        "012c": "Camera Device"
+    },
+    "289B": {
+        "0500": "Energy meter",
+        "0502": "Precision barometer",
+        "0014": "WUSBMote v1.3 (Joystick mode)",
+        "0015": "WUSBMote v1.3 (Mouse mode)",
+        "0016": "WUSBMote v1.3 (I2C interface mode)",
+        "0017": "Gamecube/N64 controller v3.0",
+        "0018": "Atari Jaguar controller",
+        "0019": "MultiDB9joy v3",
+        "001a": "MultiDB9joy v3 (multitap mode)",
+        "0100": "Dual-relay board",
+        "000b": "Gamecube/N64 controller v2.9 (Keyboard mode)",
+        "000c": "Gamecube/N64 controller v2.9 (Joystick mode)",
+        "000e": "VirtualBoy controller",
+        "0010": "WUSBMote v1.2 (Joystick mode)",
+        "0011": "WUSBMote v1.2 (Mouse mode)",
+        "0012": "WUSBMote v1.2.1 (Joystick mode)",
+        "0013": "WUSBMote v1.2.1 (Mouse mode)",
+        "0002": "2nes2snes",
+        "0003": "4nes4snes",
+        "0004": "Gamecube/N64 controller v2.3",
+        "0005": "Saturn (Joystick mode)",
+        "0006": "Saturn (Mouse mode)",
+        "0007": "Famicom controller",
+        "0008": "Dreamcast (Joystick mode)",
+        "0009": "Dreamcast (Mouse mode)",
+        "000a": "Dreamcast (Keyboard mode)",
+        "0001": "Gamecube/N64 controller v2.2"
+    },
+    "289D": {
+        "0010": "PIR206 Thermal Camera [Seek Compact]"
+    },
+    "28BD": {
+        "0920": "Star G960 Graphic Tablet"
+    },
+    "28C7": {
+        "0001": "3D printer serial interface"
+    },
+    "28D4": {
+        "0008": "120/200/250/400/800/D-Premier"
+    },
+    "28DE": {
+        "2012": "Virtual Reality Controller [VRC]",
+        "2101": "Watchman Dongle",
+        "2500": "Lighthouse Base Station",
+        "1102": "Wired Controller",
+        "1142": "Wireless Steam Controller",
+        "2000": "Lighthouse FPGA RX"
+    },
+    "28E0": {
+        "1001": "BTS Monitoring Config for Prototype",
+        "5740": "TRUMON TS-107",
+        "5741": "TRUMON TS-108"
+    },
+    "28E9": {
+        "0189": "GD32 DFU Bootloader (Longan Nano)"
+    },
+    "28F3": {
+        "2000": "Mobile Wi-Fi (C200)",
+        "3000": "Mini",
+        "4000": "Flex"
+    },
+    "28F9": {
+        "0004": "Profishark 1G",
+        "0005": "Profishark 10G",
+        "0006": "Profishark 100M",
+        "0001": "Profishark 1G Black",
+        "0003": "Profishark 1G+"
+    },
+    "290C": {
+        "4b4d": "Mercury iPod Dock"
+    },
+    "2912": {
+        "20c8": "D1 24-bit DAC",
+        "30c8": "D1 24-bit DAC"
+    },
+    "2931": {
+        "0a02": "Jolla Phone Developer",
+        "0a05": "Jolla PC connection",
+        "0a07": "Phone MTP",
+        "0afe": "Jolla charging only",
+        "0a01": "Jolla Phone MTP"
+    },
+    "2939": {
+        "49b1": "X-MCB1",
+        "49b2": "X-MCB2",
+        "49c1": "X-MCC1",
+        "49c2": "X-MCC2",
+        "49c3": "X-MCC3",
+        "49c4": "X-MCC4",
+        "4959": "A-MCB2",
+        "495a": "X-MCB1",
+        "495b": "X-MCB2"
+    },
+    "2957": {
+        "0001": "Management Console"
+    },
+    "2961": {
+        "0001": "C.24 keyboard"
+    },
+    "296B": {
+        "3917": "CX-WE100 Camera"
+    },
+    "2972": {
+        "0007": "X3 2nd gen audio player / DAC"
+    },
+    "298D": {
+        "2020": "NB-2020-U Fingerprint Reader"
+    },
+    "29BD": {
+        "4101": "Multi-touch Device"
+    },
+    "29C1": {
+        "1105": "M17-G903-1 [Tazpad]",
+        "1107": "M17-G903-A [Tazpad] (CCID)"
+    },
+    "29C2": {
+        "0003": "DGT 450",
+        "0009": "DGT 260",
+        "0011": "Stream 4x5",
+        "0001": "DGT 650"
+    },
+    "29EA": {
+        "0102": "Advantage2 Keyboard"
+    },
+    "29F1": {
+        "40f1": "Avalon4 mini",
+        "33f1": "Avalon nano 1.0",
+        "33f2": "Avalon USB2IIC Converter",
+        "33f3": "Avalon nano 2.0"
+    },
+    "2A03": {
+        "8036": "Arduino Leonardo (CDC ACM)",
+        "8037": "Arduino Micro (CDC ACM)",
+        "8038": "Arduino Robot Control (CDC ACM)",
+        "8039": "Arduino Robot Motor (CDC ACM)",
+        "803a": "Arduino Micro ADK rev3 (CDC ACM)",
+        "803c": "Arduino Explora (CDC ACM)",
+        "8041": "Arduino Yun (CDC ACM)",
+        "804d": "Arduino Zero Pro (CDC ACM)",
+        "003c": "Arduino Explora (bootloader)",
+        "003d": "Arduino Due (usb2serial)",
+        "003e": "Arduino Due",
+        "0041": "Arduino Yun (bootloader)",
+        "0042": "Arduino Mega 2560 Rev3",
+        "0043": "Arduino Uno Rev3",
+        "004d": "Arduino Zero Pro (bootloader)",
+        "8001": "Linino ONE (CDC ACM)",
+        "0001": "Linino ONE (bootloader)",
+        "0036": "Arduino Leonardo (bootloader)",
+        "0037": "Arduino Micro (bootloader)",
+        "0038": "Arduino Robot Control (bootloader)",
+        "0039": "Arduino Robot Motor (bootloader)",
+        "003a": "Arduino Micro ADK rev3 (bootloader)",
+        "003b": "Arduino usb2serial"
+    },
+    "2A13": {
+        "0000": "S-Series data capture device"
+    },
+    "2A19": {
+        "1002": "Mimas V2 Spartan6 FPGA Development Board",
+        "5440": "TimVideos HDMI2USB Opsis (FX2) - Unconfigured device",
+        "5441": "TimVideos HDMI2USB Opsis (FX2) - Firmware load/upgrade",
+        "5442": "TimVideos HDMI2USB Opsis (FX2) - HDMI/DVI Capture Device"
+    },
+    "2A1D": {
+        "0011": "VolTRAX",
+        "0020": "GridION",
+        "0021": "GridION",
+        "0120": "GridION Mk1 Bay",
+        "0121": "GridION Mk1 Bay",
+        "0000": "MinION",
+        "0001": "MinION",
+        "0010": "VolTRAX"
+    },
+    "2A37": {
+        "5110": "UPS35110/UPS25110"
+    },
+    "2A39": {
+        "3fc0": "Babyface Pro",
+        "3fc1": "Fireface UFX+",
+        "3fc2": "Fireface UFX+",
+        "3fd1": "Fireface UFX+",
+        "3fb0": "Babyface Pro (Class Compliant Mode)"
+    },
+    "2A3C": {
+        "0400": "Motor Control Device",
+        "0500": "PANdrive(TM)",
+        "0600": "motionCookie(TM)",
+        "0700": "Evaluation Device",
+        "0800": "Interface Device",
+        "0900": "Generic Device",
+        "0100": "Stepper Device",
+        "0200": "BLDC/PMSM Device",
+        "0300": "Motor Control Device"
+    },
+    "2A45": {
+        "0c03": "MX Phone (BICR ADB)",
+        "2008": "MX Phone (MTP)",
+        "200a": "MX Phone (MTP ACM ADB)",
+        "200b": "MX Phone (PTP)",
+        "200c": "MX Phone (PTP ADB)",
+        "2012": "MX Phone (MTP ACM)",
+        "0001": "MX Phone (BICR)",
+        "0c02": "MX Phone (MTP ADB)"
+    },
+    "2A47": {
+        "903a": "bq Aquaris U",
+        "0c02": "bq Aquaris E4.5",
+        "201d": "Tablet Edison 3"
+    },
+    "2A4B": {
+        "0400": "Pilot4 Integrated Hub"
+    },
+    "2A62": {
+        "b302": "NavSD",
+        "b301": "LiveSD"
+    },
+    "2A6E": {
+        "0003": "Touch Board",
+        "8003": "Touch Board"
+    },
+    "2A70": {
+        "904d": "A3000 phone (PTP mode) [3T]",
+        "904e": "A3000 phone (PTP mode, with debug) [3T]",
+        "4ee7": "ONEPLUS A3010 [OnePlus 3T] / A5010 [OnePlus 5T] / A6003 [OnePlus 6] (Charging + USB debugging modes)"
+    },
+    "2A88": {
+        "ffff": "DFU"
+    },
+    "2AB6": {
+        "0001": "PDP3000HV DAC",
+        "0002": "MP1000E, MP2000R, MP2500R, MP3100HV",
+        "0003": "TA HD AUDIO V2"
+    },
+    "2AC7": {
+        "ffff": "DFU",
+        "0101": "Evaluation Kit [Dragonfly]",
+        "0102": "UHDK5",
+        "0104": "Touchbase",
+        "0110": "STRATOS Explore",
+        "0111": "STRATOS Explore DFU",
+        "0112": "STRATOS Inspire",
+        "0113": "STRATOS Inspire DFU"
+    },
+    "2AD1": {
+        "7ab8": "Turningtable"
+    },
+    "2AE5": {
+        "904e": "2 (PTP ADB)",
+        "90de": "2 (Charging)",
+        "f000": "2 (Mass storage)",
+        "f003": "2 (MTP)",
+        "f005": "2 (tethering)",
+        "f00e": "2 (RNDIS)",
+        "9015": "2 (Mass storage ADB)",
+        "9024": "2 (RNDIS ADB)",
+        "9039": "2 (MTP ADB)",
+        "904d": "2 (PTP)"
+    },
+    "2AEC": {
+        "6011": "Converter"
+    },
+    "2AF4": {
+        "0100": "Seaboard GRAND",
+        "0200": "Seaboard RISE",
+        "0300": "BlueWing Proto",
+        "0400": "VOICE",
+        "0500": "BLOCKS"
+    },
+    "2B03": {
+        "f680": "ZED-M camera",
+        "f681": "ZED-M HID Interface",
+        "f682": "ZED-M camera",
+        "f683": "ZED-M HID Interface",
+        "f684": "ZED-M camera",
+        "f580": "ZED camera",
+        "f582": "ZED camera"
+    },
+    "2B0E": {
+        "610d": "Lex720 [LePro 3] in debug",
+        "171e": "Le2 in USB tethering mode",
+        "1830": "Le1 Pro",
+        "1844": "Le Max2",
+        "2b0e": "LeEco",
+        "6108": "Lex720 [LePro 3] in connection sharing usb",
+        "610b": "Lex720 [LePro 3] in Camera mode",
+        "610c": "Lex720 [LePro 3]",
+        "171b": "Le2"
+    },
+    "2B23": {
+        "cafe": "UsbDk (USB Development Kit)"
+    },
+    "2B24": {
+        "0001": "Bitcoin Wallet [KeepKey]",
+        "0002": "Bitcoin Wallet"
+    },
+    "2B3E": {
+        "ace2": "CW1173 [ChipWhisperer-Lite]"
+    },
+    "2B4C": {
+        "1004": "Z1 MTP"
+    },
+    "2BC5": {
+        "0403": "Astra Pro",
+        "0407": "Astra Mini S",
+        "0401": "Astra"
+    },
+    "2BD6": {
+        "4201": "RS-485 Controller and Interface [Cypress Semiconductor]"
+    },
+    "2C02": {
+        "14ea": "GW-US11H WLAN"
+    },
+    "2C1A": {
+        "0000": "Wireless Optical Mouse"
+    },
+    "2C23": {
+        "1b83": "NIC"
+    },
+    "2C4E": {
+        "0100": "MW300UM RTL8192EU wifi"
+    },
+    "2C4F": {
+        "3003": "PR Wireless Presenter"
+    },
+    "2C55": {
+        "c002": "ML1 Control (Bootloader)",
+        "a100": "ML1 Lightpack (MLDB)",
+        "b100": "ML1 Lightpack (fastboot)",
+        "c001": "ML1 Control (COM)"
+    },
+    "2C7C": {
+        "0191": "EG91 LTE modem",
+        "0195": "EG95 LTE modem",
+        "0296": "BG96 CAT-M1/NB-IoT modem",
+        "0306": "EG06/EP06/EM06 LTE-A modem",
+        "0435": "AG35 LTE modem",
+        "0121": "EC21 LTE modem",
+        "0125": "EC25 LTE modem"
+    },
+    "2C97": {
+        "0004": "Nano X",
+        "0000": "Blue",
+        "0001": "Nano S"
+    },
+    "2C99": {
+        "0001": "i3 MK2S"
+    },
+    "2C9C": {
+        "9100": "VNAKit",
+        "1000": "Walabot Makers Series",
+        "1020": "Walabot DIY",
+        "1022": "Walabot DIY Plus",
+        "1030": "Walabot Home (vHC)"
+    },
+    "2C9D": {
+        "90a0": "Goa",
+        "bac5": "Backspin"
+    },
+    "2CA3": {
+        "0008": "Mavic Mini MR1SD25 Remote controller"
+    },
+    "2CB7": {
+        "0210": "L830-EB-00 LTE WWAN Modem"
+    },
+    "2CCF": {
+        "0880": "HyperFIDO"
+    },
+    "2CD9": {
+        "0804": "PowerSync4 USBPD Hub"
+    },
+    "2CDC": {
+        "f232": "CTD48Mc CTD Probe"
+    },
+    "2CE5": {
+        "0014": "Mass Storage [NT2 U31C]"
+    },
+    "2CF0": {
+        "5246": "bladeRF",
+        "5250": "bladeRF 2.0 micro"
+    },
+    "2D2D": {
+        "504d": "Proxmark3"
+    },
+    "2D6B": {
+        "7777": "Joker TV universal DTV receiver"
+    },
+    "2D81": {
+        "4f01": "Ozobot Evo"
+    },
+    "2D84": {
+        "b806": "DT-108B Thermal Label Printer"
+    },
+    "2DC8": {
+        "ab12": "N30 gamepad",
+        "ab20": "SN30/SF30 gamepad",
+        "ab21": "SF30 gamepad",
+        "5006": "M30 Bluetooth gamepad",
+        "5750": "Bootloader",
+        "6000": "SF30 Pro gamepad",
+        "6001": "SN30/SF30 Pro gamepad",
+        "ab11": "F30 gamepad"
+    },
+    "2DCF": {
+        "c951": "Audio Class 1.0 Devices",
+        "c952": "Audio Class 2.0 Devices"
+    },
+    "2DEF": {
+        "0000": "KiNOS Boot DFU",
+        "0102": "KTWM102 Module"
+    },
+    "2DF2": {
+        "0213": "LIPSedge DL 3D ToF Camera",
+        "0215": "LIPSedge DL RGB Camera",
+        "2102": "LIPSedge 5 Megapixel RGB Camera"
+    },
+    "2E04": {
+        "c009": "Nokia 1 (bootloader)",
+        "c025": "Nokia 8 (MTP mode)",
+        "c026": "Nokia Smartphone",
+        "c029": "Nokia 8 (PTP mode)",
+        "c031": "Nokia 1 (PTP)",
+        "c03f": "Nokia 8 (MIDI mode)",
+        "0001": "Nokia 3310 3G",
+        "0002": "Nokia 3310 3G",
+        "0a14": "Nokia 3310 3G",
+        "c008": "Tethering Network Interface"
+    },
+    "2E0E": {
+        "0001": "CAN Gateway"
+    },
+    "2E24": {
+        "0652": "Duke Xbox One controller",
+        "1688": "X91 Xbox One controller"
+    },
+    "2E57": {
+        "454d": "SlideSX EnergyMeter",
+        "454e": "SlideSX EnergyMeter DFU",
+        "5cba": "SlideSX / ClustSafe Bus Adapter"
+    },
+    "2E69": {
+        "1001": "Piksi Multi"
+    },
+    "2E95": {
+        "7725": "Controller"
+    },
+    "2F76": {
+        "0905": "KX905 Smart Terminal",
+        "0906": "KX906 Smart Card Reader",
+        "1906": "KX906 Smart Token (Mass Storage)"
+    },
+    "2FC0": {
+        "0001": "Project Archer"
+    },
+    "2FC6": {
+        "6012": "UAC2 Device GB"
+    },
+    "2FE0": {
+        "8b01": "XAP-RC-001 ENF Router Card",
+        "8b02": "XAP-RW-001 ENF Router Card with WiFi",
+        "8bde": "XAP-EA-002 ENF Access Card",
+        "8bee": "XAP-EA-003 ENF Access Card"
+    },
+    "2FEB": {
+        "0004": "Veikk A15 Pen Tablet"
+    },
+    "3016": {
+        "0001": "Nitrogen Bootloader"
+    },
+    "30A4": {
+        "0001": "Notecard"
+    },
+    "30C2": {
+        "1388": "SPL Meter"
+    },
+    "30EE": {
+        "1001": "F-01L"
+    },
+    "3111": {
+        "0000": "SGS-NT Microspectrometer"
+    },
+    "3125": {
+        "0001": "TrackerPod Camera Stand"
+    },
+    "316D": {
+        "4c4b": "Librem Key"
+    },
+    "316E": {
+        "0001": "DIAMOND token"
+    },
+    "3275": {
+        "4fb1": "MonsterTV P2H"
+    },
+    "32B3": {
+        "d1a6": "TXT Multihub",
+        "d1a7": "TXT Multihub"
+    },
+    "3310": {
+        "0100": "Pure",
+        "0101": "Pure tethering"
+    },
+    "3334": {
+        "1701": "Fast Ethernet"
+    },
+    "3344": {
+        "3744": "OEM PC Remote"
+    },
+    "3384": {
+        "0000": "Thelio Io (thelio-io)",
+        "0001": "Launch Configurable Keyboard (launch_1)"
+    },
+    "348F": {
+        "2322": "Wireless Presenter"
+    },
+    "3504": {
+        "f110": "Security Key"
+    },
+    "357D": {
+        "7788": "JMicron JMS567 ATA/ATAPI Bridge"
+    },
+    "35D7": {
+        "0001": "Lite"
+    },
+    "3923": {
+        "76b0": "USB-6000 OEM",
+        "76bf": "USB-6001",
+        "76c0": "USB-6001 OEM",
+        "76c4": "USB-6002",
+        "76c5": "USB-6002 OEM",
+        "76c6": "USB-6003",
+        "76c7": "USB-6003 OEM",
+        "71d7": "USB-6009 OEM",
+        "71d8": "USB-6009 OEM",
+        "7254": "NI MIO (data acquisition card) firmware updater",
+        "729e": "USB-6251 (OEM) data acquisition card",
+        "7346": "USB-6229",
+        "755b": "myDAQ",
+        "76af": "USB-6000",
+        "703c": "USB-485 RS485 Cable",
+        "709b": "GPIB-USB-HS",
+        "7166": "USB-8451",
+        "716e": "USB-8451 Firmware Loader",
+        "717a": "USB-6008",
+        "717b": "USB-6009",
+        "71d6": "USB-6008 OEM",
+        "1f40": "DAQPad-6036E",
+        "1f50": "DAQPad-6036E",
+        "2f80": "DAQPad-6052E",
+        "2f90": "DAQPad-6052E",
+        "702a": "GPIB-USB-B",
+        "702b": "GPIB-USB-B Initialization",
+        "17b0": "USB-ISA-Bridge",
+        "1820": "DAQPad-6020E (68 pin I/O)",
+        "1830": "DAQPad-6020E (BNC)",
+        "1f00": "DAQPad-6024E",
+        "1f10": "DAQPad-6024E",
+        "1f20": "DAQPad-6025E",
+        "1f30": "DAQPad-6025E",
+        "12c0": "DAQPad-6020E",
+        "12d0": "DAQPad-6507",
+        "12e0": "NI 4350",
+        "12f0": "NI 5102",
+        "1750": "DAQPad-6508"
+    },
+    "4168": {
+        "1010": "Wireless Compact Laser Mouse"
+    },
+    "4572": {
+        "4572": "Shuttle PN31 Remote"
+    },
+    "4670": {
+        "9394": "Game Cube USB Memory Adaptor 64M"
+    },
+    "4766": {
+        "0001": "MEZ1000 RDA"
+    },
+    "50C2": {
+        "4013": "WLAN Adapter"
+    },
+    "5131": {
+        "2007": "MSR-101U Mini HID magnetic card reader"
+    },
+    "5354": {
+        "0017": "PAXcam2"
+    },
+    "E2B7": {
+        "0811": "CD002",
+        "0812": "CD005 MP3 Player"
+    },
+    "E4E4": {
+        "1130": "Astribank series",
+        "1131": "Astribank series",
+        "1132": "Astribank series",
+        "1140": "Astribank series",
+        "1141": "Astribank series",
+        "1142": "Astribank series",
+        "1150": "Astribank series",
+        "1151": "Astribank series",
+        "1152": "Astribank series",
+        "1160": "Astribank 2 series",
+        "1161": "Astribank 2 series",
+        "1162": "Astribank 2 series"
+    },
+    "EB1A": {
+        "e305": "KWorld PlusTV Analog Stick",
+        "e355": "KWorld DVB-T 355U Digital TV Dongle",
+        "2571": "M035 Compact Web Cam",
+        "2710": "SilverCrest Webcam",
+        "2750": "ECS Elitegroup G220 integrated Webcam",
+        "2761": "EeePC 701 integrated Webcam",
+        "2776": "Combined audio and video input device",
+        "2800": "EM2800 Video Capture",
+        "2801": "EM2801 Video Capture",
+        "2820": "EM2820 Video Capture",
+        "2821": "EM2820 Video Capture",
+        "2840": "EM2840 Video Capture",
+        "2841": "EM2840 Video Capture",
+        "2861": "EasyCAP DC60+ [EM2861]",
+        "2863": "Video Grabber",
+        "2870": "Pinnacle PCTV Stick",
+        "2881": "EM2881 Video Controller",
+        "50a3": "Gadmei UTV380 TV Box",
+        "50a6": "Gadmei UTV330 TV Box",
+        "5166": "video grabber 28282",
+        "5184": "VIDBOX NW06 [EM28281]",
+        "8179": "Terratec Cinergy T2 Stick HD",
+        "17de": "KWorld V-Stream XPERT DTV - DVB-T USB cold",
+        "17df": "KWorld V-Stream XPERT DTV - DVB-T USB warm"
+    },
+    "F4ED": {
+        "ee37": "SDG1010 Waveform Generator",
+        "ee3a": "SDG1010 Waveform Generator (TMC mode)"
+    }
+}

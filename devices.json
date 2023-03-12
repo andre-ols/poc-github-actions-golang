@@ -1,1 +1,66 @@
-[{"Class":"HIDClass","ClassGuid":"{745a17a0-74d3-11d0-b6fe-00a0c90f57da}","Description":"USB Input Device","HardwareID":"{USB\\VID_248A\u0026PID_8514\u0026REV_0100\u0026MI_01, USB\\VID_248A\u0026PID_8514\u0026MI_01}","Name":"USB Input Device","Status":"OK"},{"Class":"USB","ClassGuid":"{36fc9e60-c465-11cf-8056-444553540000}","Description":"USB Composite Device","HardwareID":"{USB\\VID_174F\u0026PID_1176\u0026REV_0028, USB\\VID_174F\u0026PID_1176}","Name":"USB Composite Device","Status":"OK"},{"Class":"USB","ClassGuid":"{36fc9e60-c465-11cf-8056-444553540000}","Description":"USB Composite Device","HardwareID":"{USB\\VID_248A\u0026PID_8514\u0026REV_0100, USB\\VID_248A\u0026PID_8514}","Name":"USB Composite Device","Status":"OK"},{"Class":"USB","ClassGuid":"{36fc9e60-c465-11cf-8056-444553540000}","Description":"USB Root Hub (USB 3.0)","HardwareID":"{USB\\ROOT_HUB30\u0026VID1022\u0026PID15E0\u0026REV0000, USB\\ROOT_HUB30\u0026VID1022\u0026PID15E0, USB\\ROOT_HUB30}","Name":"USB Root Hub (USB 3.0)","Status":"OK"},{"Class":"HIDClass","ClassGuid":"{745a17a0-74d3-11d0-b6fe-00a0c90f57da}","Description":"USB Input Device","HardwareID":"{USB\\VID_093A\u0026PID_2510\u0026REV_0100, USB\\VID_093A\u0026PID_2510}","Name":"USB Input Device","Status":"OK"},{"Class":"USB","ClassGuid":"{36fc9e60-c465-11cf-8056-444553540000}","Description":"USB Root Hub (USB 3.0)","HardwareID":"{USB\\ROOT_HUB30\u0026VID1022\u0026PID15E1\u0026REV0000, USB\\ROOT_HUB30\u0026VID1022\u0026PID15E1, USB\\ROOT_HUB30}","Name":"USB Root Hub (USB 3.0)","Status":"OK"},{"Class":"Bluetooth","ClassGuid":"{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}","Description":"Qualcomm Atheros QCA9377 Bluetooth","HardwareID":"{USB\\VID_0CF3\u0026PID_E500\u0026REV_0001, USB\\VID_0CF3\u0026PID_E500}","Name":"Qualcomm Atheros QCA9377 Bluetooth","Status":"OK"},{"Class":"HIDClass","ClassGuid":"{745a17a0-74d3-11d0-b6fe-00a0c90f57da}","Description":"USB Input Device","HardwareID":"{USB\\VID_248A\u0026PID_8514\u0026REV_0100\u0026MI_00, USB\\VID_248A\u0026PID_8514\u0026MI_00}","Name":"USB Input Device","Status":"OK"}]
+[
+    {
+        "Class": "HIDClass",
+        "ClassGuid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+        "Description": "USB Input Device",
+        "HardwareID": "{USB\\VID_248A\u0026PID_8514\u0026REV_0100\u0026MI_01, USB\\VID_248A\u0026PID_8514\u0026MI_01}",
+        "Name": "USB Input Device",
+        "Status": "OK"
+    },
+    {
+        "Class": "USB",
+        "ClassGuid": "{36fc9e60-c465-11cf-8056-444553540000}",
+        "Description": "USB Composite Device",
+        "HardwareID": "{USB\\VID_174F\u0026PID_1176\u0026REV_0028, USB\\VID_174F\u0026PID_1176}",
+        "Name": "USB Composite Device",
+        "Status": "OK"
+    },
+    {
+        "Class": "USB",
+        "ClassGuid": "{36fc9e60-c465-11cf-8056-444553540000}",
+        "Description": "USB Composite Device",
+        "HardwareID": "{USB\\VID_248A\u0026PID_8514\u0026REV_0100, USB\\VID_248A\u0026PID_8514}",
+        "Name": "USB Composite Device",
+        "Status": "OK"
+    },
+    {
+        "Class": "USB",
+        "ClassGuid": "{36fc9e60-c465-11cf-8056-444553540000}",
+        "Description": "USB Root Hub (USB 3.0)",
+        "HardwareID": "{USB\\ROOT_HUB30\u0026VID1022\u0026PID15E0\u0026REV0000, USB\\ROOT_HUB30\u0026VID1022\u0026PID15E0, USB\\ROOT_HUB30}",
+        "Name": "USB Root Hub (USB 3.0)",
+        "Status": "OK"
+    },
+    {
+        "Class": "HIDClass",
+        "ClassGuid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+        "Description": "USB Input Device",
+        "HardwareID": "{USB\\VID_093A\u0026PID_2510\u0026REV_0100, USB\\VID_093A\u0026PID_2510}",
+        "Name": "USB Input Device",
+        "Status": "OK"
+    },
+    {
+        "Class": "USB",
+        "ClassGuid": "{36fc9e60-c465-11cf-8056-444553540000}",
+        "Description": "USB Root Hub (USB 3.0)",
+        "HardwareID": "{USB\\ROOT_HUB30\u0026VID1022\u0026PID15E1\u0026REV0000, USB\\ROOT_HUB30\u0026VID1022\u0026PID15E1, USB\\ROOT_HUB30}",
+        "Name": "USB Root Hub (USB 3.0)",
+        "Status": "OK"
+    },
+    {
+        "Class": "Bluetooth",
+        "ClassGuid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+        "Description": "Qualcomm Atheros QCA9377 Bluetooth",
+        "HardwareID": "{USB\\VID_0CF3\u0026PID_E500\u0026REV_0001, USB\\VID_0CF3\u0026PID_E500}",
+        "Name": "Qualcomm Atheros QCA9377 Bluetooth",
+        "Status": "OK"
+    },
+    {
+        "Class": "HIDClass",
+        "ClassGuid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+        "Description": "USB Input Device",
+        "HardwareID": "{USB\\VID_248A\u0026PID_8514\u0026REV_0100\u0026MI_00, USB\\VID_248A\u0026PID_8514\u0026MI_00}",
+        "Name": "USB Input Device",
+        "Status": "OK"
+    }
+]
