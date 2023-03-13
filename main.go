@@ -1,11 +1,14 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"net/http"
 	"os/exec"
 	"strings"
+
+	"github.com/andre-ols/poc-github-actions-golang/device"
 )
 
 func GetDeviceFields(dev_description string) map[string]string {
@@ -100,5 +103,43 @@ func main() {
 	fmt.Println(len(result))
 
 	write_on_file, _ := json.Marshal(result)
-	_ = ioutil.WriteFile("devices.json", write_on_file, 0644)
+	// _ = ioutil.WriteFile("devices.json", write_on_file, 0644)
+
+	var devices []device.Device
+
+	// convert Json to []Device
+	errUnmarshal := json.Unmarshal(write_on_file, &devices)
+
+	if errUnmarshal != nil {
+		fmt.Println("Error on unmarshalling data:", errUnmarshal)
+		return
+	}
+
+	for _, data := range devices {
+
+		result, err := device.HardwareIdParser(data.HardwareID)
+		if err != nil {
+			fmt.Println("Error on parsing hardware id:", err)
+			continue
+		}
+
+		data.Info = result
+	}
+
+	marshalData, err := json.Marshal(devices)
+	if err != nil {
+		fmt.Println("Error on marshalling data:", err)
+		return
+	}
+
+	url := "http://localhost:5000/usb"
+
+	resp, err := http.Post(url, "application/json", bytes.NewBuffer(marshalData))
+	if err != nil {
+		fmt.Println("Error on sending data:", err)
+		return
+	}
+	defer resp.Body.Close()
+
+	fmt.Println("Response Status:", resp.Status)
 }
